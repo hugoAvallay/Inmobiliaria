@@ -1,50 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <a href="#"><img src="/img/logo.png" alt="Logo"></a>
-        <input type="text">
-        <nav>
-            <li><a href="/Nosotros">Nosotros</a></li>
-            <li><a href="/Anuncios">Anuncios</a></li>
-            <li><a href="/Blog">Blog</a></li>
-            <li><a href="/Contacto">Contacto</a></li>
-        </nav>
+    <title>Imnobiliaria H&E</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
 
-        <h1>A un CLIC de tu hogar </h1>
-    </header>    
+</head>
+
+<body>
+    <header class="site-header inicio">
+        <div class="contenedor contenedor-header">
+            <div class="barra">
+                <a href="/"><img src="/img/logo.svg" alt="Logo"></a>
+                <!-- poner una  barra de busqueda -->
+                <nav class="navegacion">
+                    <a href="/Nosotros">Nosotros</a>
+                    <a href="/Anuncios">Anuncios</a>
+                    <a href="/Blog">Blog</a>
+                    <a href="/Contacto">Contacto</a>
+                </nav>
+            </div>
+
+            <h1>A un CLIC de tu hogar. <br> Casas y Departamentos de Lujos </h1>
+        </div>
+    </header>
 
     <main>
         <!-- Seccion de caracteristicas de lo que ofrece la inmobiliaria-->
-        <section>
-            <h2>Más sobre Nostros</h2>
-            <article>
-                <img src="/img/icono1.svg" alt=" Icono de seguridad">
-                <h3>Seguridad</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo esse earum laudantium in? Veniam, dolore reprehenderit. Hic quia ipsum veniam voluptate optio a, magni illo, ex vitae, omnis dolorum laudantium.</p>
-            </article>
+        <section class="contenedor seccion">
+            <h2 class="fw-300 centrar-texto">Más sobre Nostros</h2>
+            <div class="iconos-nosotros">
+                <article class="icono">
+                    <img src="/img/icono1.svg" alt=" Icono de seguridad">
+                    <h3>Seguridad</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo esse earum laudantium in? Veniam,
+                        dolore reprehenderit. Hic quia ipsum veniam voluptate optio a, magni illo, ex vitae, omnis
+                        dolorum
+                        laudantium.</p>
+                </article>
 
-            <article>
-                <img src="/img/icono2.svg" alt=" Icono mejor Precio">
-                <h3>Mejor Precio</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo esse earum laudantium in? Veniam, dolore reprehenderit. Hic quia ipsum veniam voluptate optio a, magni illo, ex vitae, omnis dolorum laudantium.</p>
-            </article>
+                <article class="icono">
+                    <img src="/img/icono2.svg" alt=" Icono mejor Precio">
+                    <h3>Mejor Precio</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo esse earum laudantium in? Veniam,
+                        dolore reprehenderit. Hic quia ipsum veniam voluptate optio a, magni illo, ex vitae, omnis
+                        dolorum
+                        laudantium.</p>
+                </article>
 
-            <article>
-                <img src="/img/icono3.svg" alt=" Icono a tiempo">
-                <h3>A tiempo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo esse earum laudantium in? Veniam, dolore reprehenderit. Hic quia ipsum veniam voluptate optio a, magni illo, ex vitae, omnis dolorum laudantium.</p>
-            </article>
+                <article class="icono">
+                    <img src="/img/icono3.svg" alt=" Icono a tiempo">
+                    <h3>A tiempo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo esse earum laudantium in? Veniam,
+                        dolore reprehenderit. Hic quia ipsum veniam voluptate optio a, magni illo, ex vitae, omnis
+                        dolorum
+                        laudantium.</p>
+                </article>
+            </div>
         </section>
 
         <!-- Seccion de ventas -->
+        <section class="seccion contenedor">
+            <h2 class="fw-300 centrar-texto">Casas y Depas en Ventas</h2>
+            <div class="contenedor-anuncios">
+                <article class="anuncio">
+                    <img src="/img/anuncio1.jpg" alt="Casa en el Lago">
+                    <div class="contenido-anuncios">
+                        <h3>Casa de Lujo en el lago</h3>
+                        <p>Casa de Lujo con excelente vista, con terminaciones de estilo colonial de alto lujos</p>
+                        <p>USD$ 300.000</p>
+                        <a href="#">Ver propiedad</a>
+                    </div>
+                </article>
+
+                <article class="anuncio">
+                    <img src="/img/anuncio2.jpg" alt="Casa Lujosa">
+                    <div class="contenido-anuncios">
+                        <h3>Casa Moderna Lujosa</h3>
+                        <p>Casa de Moderna con Inteligencia articleficial, detalles muy copados, con tecnologia de
+                            banguardia
+                        </p>
+                        <p>USD$ 220.000</p>
+                        <a href="#">Ver propiedad</a>
+                    </div>
+                </article>
+
+                <article class="anuncio">
+                    <img src="/img/anuncio3.jpg" alt="Casa con Alberca">
+                    <div class="contenido-anuncios">
+                        <h3>Casa con Alberca</h3>
+                        <p>Casa con alberca, increible diseño y espaciosa, con un parque inmenso</p>
+                        <p>USD$ 450.000</p>
+                        <a href="#">Ver propiedad</a>
+                    </div>
+                </article>
+        </section>
+        </div>
+
+        <!-- Seccion de alquileres -->
         <section>
-            <h2>Casas y Depas en Ventas</h2>
+            <h2>Casas y Depas en Alquiler</h2>
             <article>
                 <img src="/img/anuncio1.jpg" alt="Casa en el Lago">
                 <h3>Casa de Lujo en el lago</h3>
@@ -56,7 +116,8 @@
             <article>
                 <img src="/img/anuncio2.jpg" alt="Casa Lujosa">
                 <h3>Casa Moderna Lujosa</h3>
-                <p>Casa de Moderna con Inteligencia articleficial, detalles muy copados, con tecnologia de banguardia</p>
+                <p>Casa de Moderna con Inteligencia articleficial, detalles muy copados, con tecnologia de banguardia
+                </p>
                 <p>USD$ 220.000</p>
                 <a href="#">Ver propiedad</a>
             </article>
@@ -67,20 +128,6 @@
                 <p>Casa con alberca, increible diseño y espaciosa, con un parque inmenso</p>
                 <p>USD$ 450.000</p>
                 <a href="#">Ver propiedad</a>
-            </article>
-        </section>
-
-        <!-- Seccion de alquileres -->
-        <section>
-            <h2>Casas y Depas en Alquiler</h2>
-            <article>
-
-            </article>
-            <article>
-
-            </article>
-            <article>
-
             </article>
         </section>
         <!-- Seccion que indica ir a un formulario de contacto -->
@@ -96,7 +143,8 @@
                 <img src="/img/blog1.jpg" alt="Entrada al blog">
                 <h4>Terraza en el techo de tu casa</h4>
                 <p>Escrito el: <em>18/06/2023</em> por: <em>Admin</em> </p>
-                <p>Consejos utiles para la construccion de una terraza en el techo de tu casa, con los mejores materiales, ahorrando mucho dinero</p>
+                <p>Consejos utiles para la construccion de una terraza en el techo de tu casa, con los mejores
+                    materiales, ahorrando mucho dinero</p>
             </article>
 
             <article>
@@ -110,13 +158,14 @@
     </main>
 
     <footer>
-        <nav>
-            <li><a href="/Nosotros">Nosotros</a></li>
-            <li><a href="/Anuncios">Anuncios</a></li>
-            <li><a href="/Blog">Blog</a></li>
-            <li><a href="/Contacto">Contacto</a></li>
+        <nav class="navegacion">
+            <a href="/Nosotros">Nosotros</a>
+            <a href="/Anuncios">Anuncios</a>
+            <a href="/Blog">Blog</a>
+            <a href="/Contacto">Contacto</a>
         </nav>
         <p>Todos los derechos reservados 2022 &copy;</p>
     </footer>
 </body>
+
 </html>
